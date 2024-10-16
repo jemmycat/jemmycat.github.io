@@ -1,0 +1,70 @@
+.post-list {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .post-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* .post-counter {
+    flex: 0 0 30px;
+    text-align: center;
+    font-size: 18px;
+    color: #999;
+  } */
+  
+  .post-tag {
+    flex: 0 0 100px;
+    color: #c7a252; /* Soft gold */
+    font-weight: bold;
+  }
+  
+  .post-title {
+    flex-grow: 1;
+    color: #333;
+  }
+  
+  .post-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .post-time {
+    font-size: 14px;
+    color: #888;
+    margin-right: 10px;
+  }
+  
+  .post-icon {
+    font-size: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .no-more-posts {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .no-more-posts img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .no-more-posts p {
+    color: #999;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+.post-title a {
+  text-decoration: none; 
+  color: inherit; 
+  font-size: 24px;
+}
