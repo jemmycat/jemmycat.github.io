@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    /* font-family: Arial, sans-serif; */
     background-color: #f0f0e3;
     color: #333;
     line-height: 2em;
@@ -16,6 +16,7 @@ p {
     line-height: 1.6em;
     font-size: 1em;
     text-align: justify;
+    padding: 1%;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -121,9 +122,11 @@ h6 {
     width: 20%; /* Sidebar 占用 25% 的宽度 */
     flex-shrink: 0; /* 确保 sidebar 的宽度保持固定 */
     background-color: #ffffff;
+    max-height: 400px;
 }
 
 .sidebar-btn {
+    list-style-type: none;
     border: 1px solid #c4a86a;
     background-color: #ffffff;
     padding: 10px;
@@ -147,11 +150,8 @@ h6 {
 
 /* Main Content Section */
 .main-content {
+
     width: 75%; /* Main content 占用 75% 的宽度 */
-    background-color: white;
-    padding: 40px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
   

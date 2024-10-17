@@ -1,7 +1,7 @@
-.post {
+/* .post {
     width: 80%;
     margin: 0 auto;
-  }
+  } */
   
   .post-header {
     margin-bottom: 20px;
@@ -19,7 +19,7 @@
     color: #333;
     margin-top: 5px;
   }
-  
+
   .post-meta {
     align-items: center;
     margin-top: 10px;
@@ -108,4 +108,12 @@
   img {
     max-width: 100%; /* 图片最大宽度为父容器的 100% */
     height: auto;    /* 保持图片的原始纵横比 */
+  }
+
+  .posts-content {
+    width: 75%; /* Main content 占用 75% 的宽度 */
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }

@@ -1,3 +1,41 @@
+:root {
+  /* Common between themes */
+  --border-color: #009FE3;
+  --blockquote-border-color: #009FE3;
+  --code-color: #f8f8f2;
+  --code-bg-color: #505050a1;
+  --thumbnail-size: 250px;
+
+  /* Theme specific */
+  --bg-color: #F8F8FF;
+  --secondary-bg-color:#F2F2F4;
+  --body-color: rgba(0, 0, 0, 0.9);
+  --post-color: rgba(51, 38, 38, 0.44);
+  --heading-color: #000;
+  --blockquote-text-color: #585858;
+  --tag-color: #0053b9;
+  --active-tag-color: #003679;
+  --a-color: #009FE3;
+  --box-shadow: 0 5px 15px rgba(0,0,0,.25);
+}
+
+a:link,
+a:visited {
+    color: var(--body-color);
+}
+
+
+a:hover {
+  color: var(--tag-color);
+  cursor: pointer;
+transition: all 0.3s ease-in-out;
+}
+
+a:active {
+  color: var(--active-tag-color);
+}
+
+
 .post-list {
     width: 100%;
     margin: 0 auto;
@@ -58,6 +96,7 @@
   justify-content: space-between;
   background-color: #FFFFFF;
   box-sizing: border-box;
+  border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0,0,0,.25);
 }
 
